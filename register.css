@@ -1,0 +1,45 @@
+body{
+  background-image: url("ocean.jpg");
+  background-position: top;
+  background-size: cover;
+  color:black;
+  text-align: center;
+}
+
+
+.form_container{
+  background-color: rgba(255,255,255,0.5);
+  margin:5% auto;
+  width:60%;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 2rem;
+  border-radius: 1%;
+}
+
+input{
+
+  margin: 0.5rem auto 0.5rem auto;
+  padding:0.5rem 0.5rem;
+  border: 0;
+
+}
+span{
+
+  color:black;
+}
+
+select{
+  margin: 0.5rem auto 0.5rem auto;
+  padding:0.5rem 0.5rem;
+}
+.button{
+  margin:1rem;
+  margin-left:45%;
+  padding:0.5rem 1rem;
+
+}
+.button:hover{
+  background-color: blue;
+  color:white;
+}
